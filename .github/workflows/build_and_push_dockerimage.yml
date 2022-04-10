@@ -21,7 +21,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          images: TobsA13/dali2mqtt
           tag-sha: true
 
       - name: Set up Docker Buildx
